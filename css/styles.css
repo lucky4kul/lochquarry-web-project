@@ -1,0 +1,136 @@
+header img{
+    height:auto;
+    width: 150%;
+}
+
+.banner {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color:#f9fafb;
+    padding: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    padding: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+section {
+    text-align: left;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #003366;
+    margin-bottom: 2px;
+    line-height: 1.2;
+}
+
+section h2 {
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding-top: 20px;
+    color: #003366;
+}
+    
+ p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.nature-img {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 4px solid black;
+    margin-bottom: 60px;
+}
+
+.review-section {
+    background-color: #f4f4f4;
+    border-left: 10px solid #2e5a88;
+    padding: 10px 20px;
+    margin: 30px auto;
+    font-style: italic;
+    transition: 0.3s;
+    max-width: 800px;
+}
+
+.review:hover {
+background-color: #e0f2fe;
+border-left-color: #003366;
+transform: scale(1.02);
+transition: 0.3s;
+cursor: pointer;
+}
+
+ul {
+    list-style-type: square;
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+footer {
+    background-color: #222;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+    border-top: 5px solid #26ccff; 
+}
+
+.footer-content p {
+    margin: 8px 0;
+    font-size: 0.9rem;
+}
+
+footer strong {
+    color: #26ccff; 
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.external-link {
+    text-align: center;
+    margin-top: 20px;
+}

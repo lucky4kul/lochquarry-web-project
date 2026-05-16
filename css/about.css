@@ -1,0 +1,53 @@
+.staff-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 30px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.staff-img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    border: 5px solid black;
+    filter: grayscale(40%);
+    transition: 0.3s;
+    
+}
+
+.staff-img:hover {
+    filter:grayscale(0%);
+    transform: scale(1.05);
+}
+
+.staff-info {
+    flex: 1;
+}
+
+body {
+    background-color: #f9fafb;
+}
+
+.banner{
+    background-color: #f9fafb;
+}
+
+.site-info {
+    padding-bottom: 10px;
+}
+
+
+.staff-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+
+

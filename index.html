@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Lochquarry Outdoor Centre</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header>
+    <div class="top-bar">
+        <img src="Lochquarry_Logo.png" alt="Lochquarry Logo" class="logo">
+        <div class="title-nav">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="land.html">Land</a>
+                <a href="rope.html">Rope</a>
+                <a href="water.html">Water</a>
+                <a href="about_us.html">About Us</a>
+            </nav>
+        </div>
+    </div>
+    <img src="Lochquarry_Banner.png" alt="Lochquarry Banner" class="banner">
+</header>
+    <main>
+        <section>
+            <h1>Welcome to Lochquarry Outdoor Centre</h1>
+            <p>Lochquarry Outdoor Centre provides outdoor activities for young people aged 6-18. We have recently expanded the number of different activities that we offer and would like to invite you to explore the exciting adventures waiting for you.</p>
+            
+            <h2>Our Activities</h2>
+            <p>The activities that the centre offers can be split into three main categories:</p>
+            <ul>
+                <li><strong>Land-based:</strong> Including Archery and Orienteering.</li>
+                <li><strong>Water-based:</strong> Activities taking place on Lochquarry itself.</li>
+                <li><strong>Rope-based:</strong> High-energy climbing and abseiling.</li>
+            </ul>
+
+            <img src="nature/nature_1.jpg" alt="The scenic landscape of Lochquarry" class="nature-img">
+
+            <p>At the moment, the centre is busy during evenings and weekends with bookings from youth groups, such as Scouts and Guides, but we are expanding to include bookings from school groups during the week.</p>
+        </section>
+
+        <canvas id="myChart" width="400" height="200"></canvas>
+    
+        <div class="review-section">
+            <blockquote>
+                <p><em>"We had a great time and loved all the different activities that we did"</em> – 8th Gourock Guides</p>
+            </blockquote>
+        </div>
+    </main>
+
+    <footer>
+        <p>To book your next adventure, please phone 01475 229 8311</p>
+        <p>&copy; <span id="year"></span> Lochquarry Outdoor Centre</p>
+    </footer>
+<script>
+    const canvas = document.getElementById('myChart');
+    const context = canvas.getContext('2d');
+  
+    const myChart = new Chart(context, {
+      type: 'bar',
+      data: {
+        labels: ['Land', 'Rope', 'Water'],
+        datasets: [{
+          label: 'Daily Bookings',
+          data: [12, 19, 3],
+          backgroundColor: ['#27ae60', '#d35400', '#2980b9']
+        }]
+      }
+    });
+  </script>
+</body>
+</html>
